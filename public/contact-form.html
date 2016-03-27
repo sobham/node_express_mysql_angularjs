@@ -1,0 +1,30 @@
+<div class="row" ng-hide="customer.id">
+  <div class="col-md-6">
+      <h2>Create new Customer</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>
+      <label>First Name (required)</label> 
+      <input id="name" class="form-control" type="text" ng-model="customer.name" required> 
+    </p>
+     <p>
+      <label>Email (required)</label> 
+      <input id="email" class="form-control" type="text" ng-model="customer.email" required> 
+    </p>
+    <p>
+      <label>Phone (required)</label> 
+      <input id="phone" class="form-control" type="text" ng-model="customer.phone" required> 
+    </p>
+    <p>
+      <label>Address</label> 
+      <input id="phone" class="form-control" type="textarea" ng-model="customer.address" required> 
+    </p>
+   
+    <p>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="saveCustomer(customer)">Save</button>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="back()">Back</button>
+    </p>
+  </div>
+</div>

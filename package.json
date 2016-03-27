@@ -1,0 +1,12 @@
+{
+	"name":"node_express",
+	"version":"0.0.1",
+	"dependencies" :{
+
+	"express" :"",
+	"mysql" :"",
+	"express-myconnection":"",
+	"body-parser":""
+
+	}
+}
